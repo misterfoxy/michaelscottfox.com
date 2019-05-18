@@ -74,6 +74,7 @@ class Layout extends React.Component {
             textDecoration: 'none',
             display: 'flex',
             flexDirection: 'column',
+            fontFamily:'Montserrat'
           }}
         >
           © {new Date().getFullYear()} -
@@ -89,11 +90,11 @@ class Layout extends React.Component {
 
             }}
           >
-          <a target="_blank" href={`https://linkedin.com/in/michaelscottfox`}>
+          <a href={`https://linkedin.com/in/michaelscottfox`}>
                 <FaLinkedin/>
               </a>
-           <a target="_blank" href="https://instagram.com/misterfoxy"><FaInstagram/></a>
-           <a target="_blank" href='https://github.com/misterfoxy'><FaGithubSquare/></a>
+           <a href="https://instagram.com/misterfoxy"><FaInstagram/></a>
+           <a href='https://github.com/misterfoxy'><FaGithubSquare/></a>
           </div>
           
         </footer>
