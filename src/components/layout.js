@@ -89,11 +89,11 @@ class Layout extends React.Component {
 
             }}
           >
-          <a href={`https://linkedin.com/in/michaelscottfox`}>
+          <a target="_blank" href={`https://linkedin.com/in/michaelscottfox`}>
                 <FaLinkedin/>
               </a>
-           <a href="https://instagram.com/misterfoxy"><FaInstagram/></a>
-           <a href='https://github.com/misterfoxy'><FaGithubSquare/></a>
+           <a target="_blank" href="https://instagram.com/misterfoxy"><FaInstagram/></a>
+           <a target="_blank" href='https://github.com/misterfoxy'><FaGithubSquare/></a>
           </div>
           
         </footer>
