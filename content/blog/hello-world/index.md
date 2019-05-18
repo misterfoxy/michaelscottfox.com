@@ -1,21 +1,17 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: Populus Release v1.1.2
+date: "2019-05-18T22:12:03.284Z"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Populus now has Listers! 
 
-I'm sure I'll write a lot more interesting things in the future.
+Listers are our partners that actually produce the goods. When you pitch into an order for your favorite designer or event, your payment will immediately get routed to their [Stripe account](https://stripe.com/connect). With money in hand immediately, the printers spend less time waiting for checks to clear, and more time serving up hot designs. Huge shout-out to [Peak AZ Apparel](https://peakazapparel.com) for being our founding partner!
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+*The following bug fixes and enhancements have been made:*
+ - Open Graph meta tags have been added for enhanced SEO
+ - Password reset and Email Confirmation has been incorporated
+ - You can now buy more than one item at a time!!
+ - You can now get in touch with our partners by sending design requests!
+ - The popup of other contributors for an order has been fixed
+ - Garbage collecting cron task has been implemented
+ - Terms of Service added to new user account creation
