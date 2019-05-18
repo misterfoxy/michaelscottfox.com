@@ -25,6 +25,7 @@ const Subscribe = props => {
             </p>
             <p>
                 <input style={{borderRadius: '5px', border:'none'}} type='email' placeholder="me@example.com" name='email'/>
+                <input type="hidden" name="form-name" value="subscribe" />
             </p>
             </div>
             <div>
