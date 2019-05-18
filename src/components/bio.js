@@ -38,11 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Blogging about business, code, and graphic screen printing.
+              JavaScript, Ableton, and Dachshund fanatic.  Blogging about business, code, music, and screen printing.
               {` `}
-              <a href={`https://linkedin.com/in/${social.twitter}`}>
-                Follow me on Linkedin.
-              </a>
+              
             </p>
           </div>
         )
