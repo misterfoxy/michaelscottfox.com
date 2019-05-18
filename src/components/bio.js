@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              JavaScript, Ableton, and Dachshund fanatic.  Blogging about business, code, music, and screen printing.
+              JavaScript, Ableton, and Dachshund fanatic.  Blogging about business, code, and screen printing.
               {` `}
               
             </p>
