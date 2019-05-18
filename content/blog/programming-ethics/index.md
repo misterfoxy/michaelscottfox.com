@@ -1,6 +1,8 @@
 ---
 title: Programming, Clothing, and Frat Parties -- An Adventure in Ethics
 date: "2018-05-13T22:12:03.284Z"
+description: "A fun blog about nothing"
+author: "Michael Scott Fox"
 ---
 
 

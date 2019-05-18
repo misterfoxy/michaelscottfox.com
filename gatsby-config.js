@@ -3,9 +3,9 @@ module.exports = {
     title: `misterfoxy`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    author: 'misterfoxy',
     social: {
       twitter: `michaelscottfox`,
-      author: 'misterfoxy'
     },
   },
   plugins: [

@@ -1,6 +1,8 @@
 ---
 title: Populus Release v1.1.2
 date: "2019-05-18T22:12:03.284Z"
+description: "A fun blog about nothing"
+author: "Michael Scott Fox"
 ---
 
 Populus now has Listers! 
