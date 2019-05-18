@@ -14,8 +14,13 @@ const Subscribe = props => {
             alignItems:'center'
 
         }}>
-        <form name="subscribe" netlify>
-            <div style={{}}>
+        <form name="subscribe" 
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            action="#"
+        >
+            <div >
             <p>
                 Subscribe to my weekly-ish updates
             </p>
