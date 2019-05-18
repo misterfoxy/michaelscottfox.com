@@ -17,8 +17,7 @@ const Subscribe = props => {
         <form name="subscribe" 
             method="post"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            action="#"
+            action="/"
         >
             <div >
             <p>
