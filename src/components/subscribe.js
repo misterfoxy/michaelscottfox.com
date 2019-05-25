@@ -3,7 +3,7 @@ import React from "react"
 const Subscribe = props => {
     return (
         <div style={{
-            fontFamily: 'Montserrat',
+            fontFamily: 'Helvetica Neue',
             padding: '1vh 1vw',
             margin: '1.5vh 1.5vw',
             display: 'flex', 

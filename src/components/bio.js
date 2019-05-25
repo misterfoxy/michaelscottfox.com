@@ -27,7 +27,7 @@ function Bio() {
                 />
               </div>
               <p className="bio-text">
-              JavaScript, Ableton, and Dachshund fanatic.  Blogging about business, code, and screen printing.
+              JavaScript, Ableton, and Dachshund fanatic.  Blogging about music, code, and screen printing.
               </p>
             </div>
             <div className="social-media">

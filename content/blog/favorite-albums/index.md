@@ -47,6 +47,33 @@ However, the beauty of this album is how each track is enumerated in such precis
 - Backseat Freestyle
 - The Art of Peer Pressure
 - Money Trees
+
+
+## Kanye West - Yeezus
+![yeezus](./index.jpg)
+
+I've gotten in yelling matches with people about Yeezus. I'll defend this work of pure art until it's found permanent rest in a Federal museum. 
+
+However, the argument that Kanye peaked with _Twisted Fantasy_ is full of merit. From lyrical powerhouses of Gorgeous and Blame Game to the writer's block ridden struggles of Swaghili and French Restaurants, and it's readily apparent than we've come a long way from the days from KanyeToThe. While his creative ways to rhyme still don't rely around knives or guns, they're replaced with hyper sexual roars against any institution that dare stand in his way.
+
+>Which is precisely why Yeezus is my favorite album by Kanye. 
+
+Yeezus was the first Kanye album I listened to after being aware of his public life. He had just released arguably the best hiphop album ever. The paparrazi continues to pry for glimpses into the most minute details of his life. He's disrupting fashion collaborations with Louis Vuitton, Nike, and up-and-comer Virgil Abloh. His album 808s and Heartbreak is spawning a new generation of RnB rappers like Drake, and single handedly reviatalized the distorted 808 boom.
+
+He also believes he's being shortchanged. He's not being given the tools he needs to create. Corporations are holding contracts over his head. He's frustrated at the state of the world, and is seeking stability amidst the madness. So, true to form, he rewrites the book on Hip Hop again. 
+
+Yeezus opens with On Sight, a sonic whirlwind of LFO and Rick Ribin (TM) Distortion. Produced alongside Daft Punk, Kanye goes on to snarl "Yeezy season approaching, fuck whatever y'all been hearing." We bought the ticket, and here comes the ride. 
+
+The experimental approach Kanye took involved growling synthesizers, obscure dog barking samples, viscous basslines, and raw lyricism. It's not an album you listen to for lyrical enjoyment, but to feel inspired to make something out of seemingly nothing. 
+
+#### Favorite Track
+- Hold My Liquor
+
+#### Best 3 Song Stretch
+- Black Skinhead
+- I Am A God
+- New Slaves
+
 <!--
 ## The Silent Comedy - Common Faults
 
@@ -56,11 +83,8 @@ However, the beauty of this album is how each track is enumerated in such precis
 
 ## Portugal. the Man - Evil Friends
 
-## Chance the Rapper - Acid Rap -->
+## Chance the Rapper - Acid Rap 
 
-<!-- ## Kanye West - Yeezus
-![yeezus](./yeezus.jpg)
-I've gotten in yelling matches with people about Yeezus. I'll defend this work of pure art until it's found permanent rest in a Federal museum.
 
 
 
