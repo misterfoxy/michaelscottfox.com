@@ -8,41 +8,38 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import {FaGithubSquare, FaLinkedin, FaInstagram} from 'react-icons/fa'
 
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+
         return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={'michael'}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
-            <p>
+          <div className="bio-container">
+            <div className="bio">
+              <div className="bio-pic">
+                <Image
+                  fixed={data.avatar.childImageSharp.fixed}
+                  alt={`michael`}
+                />
+              </div>
+              <p className="bio-text">
               JavaScript, Ableton, and Dachshund fanatic.  Blogging about business, code, and screen printing.
-              {` `}
-              
-            </p>
+              </p>
+            </div>
+            <div className="social-media">
+            <a className="social" href={`https://linkedin.com/in/michaelscottfox`}>
+                <FaLinkedin/>
+              </a>
+           <a className="social" href="https://instagram.com/misterfoxy"><FaInstagram/></a>
+           <a className="social" href='https://github.com/misterfoxy'><FaGithubSquare/></a>
+            </div>
           </div>
+
+          
         )
       }}
     />

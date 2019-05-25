@@ -3,10 +3,17 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
-    "a.gatsby-resp-image-link": {
+    'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    'a': {
+      color: `#3b9f56`
+    },
+    'h1.post-title': {
+      fontSize: `1.9rem`
+    }
   }
+
 }
 
 delete Wordpress2016.googleFonts

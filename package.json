@@ -1,7 +1,7 @@
 {
   "name": "michaelscottfox.com",
   "description": "Blogging about code, graphic printing, and business",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Michael Scott Fox <fox@populus.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
@@ -29,6 +29,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
+    "react-toggle": "^4.0.2",
     "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -50,7 +51,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
