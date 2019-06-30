@@ -3,6 +3,7 @@ title: Programming, Clothing, and Frat Parties -- An Adventure in Ethics
 date: "2018-05-13T22:12:03.284Z"
 description: "Amidst the controversy whirlwind of Russian interference, non-disclosed back alley meetings, sexual predators, and trade anxieties, a sole issue remains untouched..."
 author: "Michael Scott Fox"
+image: "https://via.placeholder.com/500"
 ---
 
 

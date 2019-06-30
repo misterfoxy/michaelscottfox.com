@@ -3,7 +3,7 @@ title: Some of my favorite records
 date: "2019-05-23T22:12:03.284Z"
 description: "Art is how we decorate space, and music is how we decorate time. These are a few of my favorite albums to spin on the needle..."
 author: "Michael Scott Fox"
-image: (./cte.jpg)
+image: "https://res.cloudinary.com/dgidtgwgr/image/upload/v1561862377/msf_blog/index.jpg"
 ---
 
 I was on my first roadtrip with friends from college, and as driver, I asked my passengers what album they wanted me to start with. This was the first instance of my life when I realized most people pick and choose a few songs, and skip over the rest. 

@@ -3,6 +3,7 @@ title: Populus Release v1.1.3
 date: "2019-05-18T22:12:03.284Z"
 description: "Lots of fun updates here..."
 author: "Michael Scott Fox"
+image: "https://via.placeholder.com/500"
 ---
 
 *The following bug fixes and enhancements have been made:*
