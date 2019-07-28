@@ -1,6 +1,6 @@
 ---
 title: Deploying a Python Crontask on a DigitalOcean Ubuntu Droplet 
-date: "2018-07-01T22:12:03.284Z"
+date: "2019-07-14T22:12:03.284Z"
 description: "As a subscriber to the Boglehead philosophy, my portfolio's performance is closely correlated with the S&P 500. As a tech nerd at heart, I wanted to take a crack at fintech..."
 author: "Michael Scott Fox"
 image: "https://res.cloudinary.com/dgidtgwgr/image/upload/v1561862474/msf_blog/Finance-1.jpg"
