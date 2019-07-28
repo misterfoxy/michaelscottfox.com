@@ -129,6 +129,35 @@ Last login: Sun Jul 28 19:15:27 2019 from 68.3.207.122
 root@foxy:~# 
 ```
 
+In other words, you're taken control of a computer in a data center. It'll stay online until you tell it to sleep. 
+
+However, you'll notice that we're connected as the Root user, which makes a lot of people angry and is widely regarded as a bad move. Let's create a new user to safeguard us from digital harikari. 
+
+```
+adduser fox
+```
+
+You can click `enter` the whole way down. We want to add our new user to the `sudo` group so we can occassionally run root level commands. I didn't write the rulebook, I just play the game.
+
+```
+usermod -aG sudo fox
+```
+
+Run `groups fox` to make sure you've been added to the sudo group.
+
+Let's get out of our root user and switch over to our new one. Type `su fox`.
+
+```
+cd ~
+mkdir .ssh
+sudo cp /root/.ssh/authorized_keys .ssh/
+sudo chown fox:fox .ssh/authorized_keys
+ls -l .ssh/
+chmod 700 .ssh/
+exit
+ssh -i ~/.ssh/foxy fox@[YOURIPADDRESS]
+```
+
 
 
 ## Installing Dependencies
