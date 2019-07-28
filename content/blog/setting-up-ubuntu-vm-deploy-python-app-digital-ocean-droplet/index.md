@@ -13,26 +13,84 @@ Recently, I've been spending a good amount of time learning bash scripting as I 
 
 
 ## What we're building
-
 In this post, I'll do a walkthrough of how I setup a daily report for the S&P500 Index using Python, IEXCloud, and a Digital Ocean Ubuntu Droplet. 
 
 Here's a flowchart of what the project does for the user. 
 
-We'll be creating an instance of Ubuntu on a DigitalOcean droplet, writing a Python script to automate the boring stuff, and setting up a crontask to run the report after trading closes in New York.
+**We'll be creating an instance of Ubuntu on a DigitalOcean droplet, writing a Python script to automate the boring stuff, and setting up a crontask to run the report after trading closes in New York.**
 
 ## Setting up a Server
 Now, you can do this project for free on any computer you own, however being able to control a server in the cloud for $5/month is pretty fucking cool. If you already have a Linux machine laying around at home, chances are you don't need this guide anyway.
 
-> But muh security
+### SSH Keys
+Before we startup our Droplet on DigitalOcean, we should be sure to have an SSH key generated to connect. If you already have a key generated, just skip to the section on adding the key to the droplet.
 
-That's why we're going to generate a new ssh key right now. Crack open your terminal and run the following command 
+I'll be creating a new key just for this guide. Open up a terminal, and run the following commands.
+
 ```sh
 cd ~/.ssh
-ssh-keygen -b 4096 -C "youremailaddress@gmail.com"
+ssh-keygen -t rsa -C "youremailaddress@gmail.com"
 ```
-Next we want to add this to your agent so we can connect to your new server. 
 
-Go to DigitalOcean and signin with Github, Google, or your email. 
+This will prompt you for a few more points, such as the name of the key and if you want a password. I'm naming this one `foxy` due to my insatiable ego, and not setting a password. 
+
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/michaelfox/.ssh/id_rsa): foxy
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in foxy.
+Your public key has been saved in foxy.pub.
+The key fingerprint is:
+SHA256:T2/NeTvCMXkXcqvIAjT9zHy5tcV1IfRP+LsnlF0KYUA michaelscottfox1@gmail.com
+The keys randomart image is:
++---[RSA 2048]----+
+|         .E...   |
+|            o..o |
+|        .  . .o.o|
+|       o .  .. ==|
+|      . S *  .==O|
+|       . o * O+=*|
+|        . o *.@.=|
+|         . + =.++|
+|          .   .+o|
++----[SHA256]-----+
+```
+
+If your terminal looks similar to this, you're doing great sweetie. 
+
+### Drip Too Hard - Creating a Droplet
+
+Signup for a DigitalOcean account and create a new droplet. 
+
+![how-to-create](./howtocreate.png)
+
+
+Under `Distributions`, select `Ubuntu 16.04 (LTS) x64`.
+
+Under `Choose a Plan`, select whichever droplet price fits your budget. Even a $5/month server is pretty powerful.
+
+I usually keep my servers stateside in New York or San Francisco.
+
+Under `SSH Keys`, select the `New SSH Key` option. We're going to "pre-load" our SSH key so we can easily connect without typing a password everytime. 
+
+Go back into your terminal and run the following command
+
+```
+cat ~/.ssh/foxy.pub
+```
+
+Copy the output from your terminal, and paste it in the `SSH key content` field. It should start with `ssh-rsa` and end with your email address.
+
+Name the key something distinct. I chose `dropletTutorial`.
+
+Choose a hostname. I picked `foxy` yet again.
+
+Click create droplet, and let DigitalOcean do it's magic! Once it's finished loading, you should see a series of 4 numbers with periods between them.
+
+![created-image](./created.png)
+
+This is your server's IP address, and you'll connect to it with your terminal!
 
 
 ## Installing Dependencies
