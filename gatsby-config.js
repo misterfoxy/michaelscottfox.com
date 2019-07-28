@@ -4,7 +4,7 @@ module.exports = {
     description: `A blog about code, music, and Dachshunds`,
     siteUrl: `https://michaelscottfox.com/`,
     author: 'misterfoxy',
-    image: 'https://via.placeholder.com/500',
+    image: 'https://res.cloudinary.com/dgidtgwgr/image/upload/v1561862377/msf_blog/index.jpg',
     social: {
       twitter: `michaelscottfox`,
     },
