@@ -1,18 +1,19 @@
 ---
 title: Automating A Financial Report with Python  
-date: "2019-07-14T22:12:03.284Z"
+date: "2019-07-27T22:12:03.284Z"
 description: "As a subscriber to the Boglehead philosophy, my portfolio's performance is closely correlated with the S&P 500. As a tech nerd at heart, I wanted to take a crack at fintech..."
 author: "Michael Scott Fox"
 image: "https://res.cloudinary.com/dgidtgwgr/image/upload/v1561862474/msf_blog/Finance-1.jpg"
 ---
 
-# A brief detour into Fintech
-Typically, my relationship with programming is exclusive to Populus, my apparel crowdfunding side-hustle. While the powers of Full Stack JavaScript are easy to work with, I occasionally get the itch to experiment with other languages for one-off projects. 
+![banner](./banner.jpg)
 
-Recently, I've been spending a good amount of time learning bash scripting as I continue to build DevOps processes for the Populus Web Client and RESTful API, and I've always wanted to try writing my own Python script. Since I don't have a fleet of overworked analysts running the hot numbers across my desk, making the computer pick up the slack is nice.
+Typically, my relationship with programming is exclusive to [Populus, my apparel crowdfunding side-hustle](https://populus.app/crowdfunds). While the powers of Full Stack JavaScript are easy to work with, I occasionally get the itch to experiment with other languages for one-off projects. 
+
+Recently, I've been spending a good amount of time learning bash scripting as I continue to build DevOps processes for the Populus Web Client and RESTful API, and I've always wanted to try writing my own Python script. Since I don't have a fleet of overworked analysts running the hot numbers across my desk, making the computer pick up the slack is a solid compromise.
 
 
-## What we're building
+## What We're Building
 In this post, I'll do a walkthrough of how I setup a daily report for the S&P500 Index using Python, IEXCloud, and a Digital Ocean Ubuntu Droplet. 
 
 Here's a flowchart of what the project does for the user. 
@@ -57,7 +58,14 @@ The keys randomart image is:
 +----[SHA256]-----+
 ```
 
-If your terminal looks similar to this, you're doing great sweetie. 
+If your terminal looks similar to this, you're doing great sweetie!!
+
+Lastly, let's add it to the SSH-Agent so we don't have to supply the key's path everytime to connect. 
+
+```
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/foxy
+```
 
 ### Drip Too Hard - Creating a Droplet
 
@@ -91,6 +99,36 @@ Click create droplet, and let DigitalOcean do it's magic! Once it's finished loa
 ![created-image](./created.png)
 
 This is your server's IP address, and you'll connect to it with your terminal!
+
+Go back to your terminal and run the following: 
+
+```sh
+ssh root@[YOUR_DROPLET_IP_ADDRESS]
+```
+Type `yes` when asked if you approve the connection. Unless you have better things to do.
+
+## Configuring the Droplet
+
+If you've followed this guide to a T, you should see the following in your terminal. 
+
+```ubuntu
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-154-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Sun Jul 28 19:15:27 2019 from 68.3.207.122
+root@foxy:~# 
+```
+
 
 
 ## Installing Dependencies
