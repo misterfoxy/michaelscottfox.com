@@ -16,7 +16,9 @@ Recently, I've been spending a good amount of time learning bash scripting as I 
 ## What We're Building
 In this post, I'll do a walkthrough of how I setup a daily report for the S&P500 Index using Python, IEXCloud, and a Digital Ocean Ubuntu Droplet. 
 
-Here's a flowchart of what the project does for the user. 
+Before writing code, it's good to write out in your own words what you want the program to do. Here's a flowchart of my thought process for this project. 
+
+![pseudo-code](FlowChart.jpg)
 
 **We'll be creating an instance of Ubuntu on a DigitalOcean droplet, writing a Python script to automate the boring stuff, and setting up a crontask to run the report after trading closes in New York.**
 
