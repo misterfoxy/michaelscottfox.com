@@ -133,7 +133,9 @@ root@foxy:~#
 
 In other words, you're taken control of a computer in a data center. It'll stay online until you tell it to sleep. 
 
-However, you'll notice that we're connected as the Root user, which makes a lot of people angry and is widely regarded as a bad move. Let's create a new user to safeguard us from digital harikari. 
+### Use Protection
+
+You'll notice that we're connected as the Root user, which makes a lot of people angry and is widely regarded as a bad move. Let's create a new user to safeguard us from digital harikari. 
 
 ```
 adduser fox
@@ -149,17 +151,31 @@ Run `groups fox` to make sure you've been added to the sudo group.
 
 Let's get out of our root user and switch over to our new one. Type `su fox`.
 
-```
+### Lock and Reload
+
+In order to secure our droplet, we need to copy the SSH keys from your regular computer. Right now, only the `root` user has access to them, so we'll run a few commands and copy it over
+
+```sh
+# move to home user directory
 cd ~
+
+# make a directory for ssh keys
 mkdir .ssh
+
+# copy the ssh keys from the root directory to your user's .ssh directory
 sudo cp /root/.ssh/authorized_keys .ssh/
+
+# change ownership of the keys to your user
 sudo chown fox:fox .ssh/authorized_keys
-ls -l .ssh/
+
+# allow user to read, write, and execute
 chmod 700 .ssh/
-exit
-ssh -i ~/.ssh/foxy fox@[YOURIPADDRESS]
+
 ```
 
+Great! Now let's actually test it out. 
+
+Type `exit` in your terminal to return back to your local machine. Now, type `
 
 
 ## Installing Dependencies
