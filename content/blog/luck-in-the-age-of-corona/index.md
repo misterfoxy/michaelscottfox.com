@@ -5,8 +5,6 @@ description: "When opportunity meets preparation, that's luck."
 author: "Michael Scott Fox"
 image: "https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 ---
-
-# Luck in the Age of Corona
 In 2015, I had to stop attending college due to financial hardship. Getting a loan was a big fear of mine, as I was fortunate to have parents that would explain things like APR's and credit scores to me early on. 
 
 So, I stumbled into a restaurant job as a 20 year old. Within 4 months, I was opening and closing the shift as a lead bartender. Margaritas, palomas, and tequila shots were the game. Money was good, and I was able to save up to try something different.
