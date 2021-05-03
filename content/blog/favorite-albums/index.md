@@ -1,19 +1,42 @@
 ---
 title: Some of my favorite records
-date: "2019-05-23T22:12:03.284Z"
+date: "2021-05-02T22:12:03.284Z"
 description: "Art is how we decorate space, and music is how we decorate time. These are a few of my favorite albums to spin on the needle..."
 author: "Michael Scott Fox"
 image: "https://res.cloudinary.com/dgidtgwgr/image/upload/v1561862377/msf_blog/index.jpg"
 ---
 
-I was on my first roadtrip with friends from college, and as driver, I asked my passengers what album they wanted me to start with. This was the first instance of my life when I realized most people pick and choose a few songs, and skip over the rest. 
+I was on my first roadtrip with friends from college, and as driver, I asked my passengers what album they wanted me to start with. 
 
-> Fox, you fuckin' dork. Here, check out this mix by "B1TCHE5\_N\_$$$$"
+> Fox, you fuckin' nerd. Here, check out this mix by..."
 
-This isn't to knock the clout game, as I'm a (albiet poor) participant in the loudness war on soundcloud. One day I'll write a post about how saturators are designed to blow out speakers, but we'll cross that bridge when we come to it. 
+This was the first instance of my life when I realized most people pick and choose a few songs, and skip over the rest. 
 
-However, I'm grateful to have had friends that were even bigger music dorks than I, and we would share new sounds consistently. Here, I'll pay homage to the albums that danced through the best and worst of my memories. 
 
+This isn't to knock the clout game, as I'm a (albiet poor) participant in the loudness war on soundcloud. But rather to express gratitude to the friends that molded me into that music nerd. Here, I'll pay homage to the albums that danced through the best and worst of my memories. 
+
+## Parcels - Live Vol. 1
+![parcels-live-volume-1](./parcels.jpeg)
+
+When I reflect on my 2020 Quarantine, the first things that come to mind are: 
+
+1. My Girlfriend who kept me sane while the world turned upside down 
+
+2. Doom (2016)
+
+3. Parcels
+
+The groove, the funk, the fire -- whatever it is that makes you shake your hips and tap your feet -- that's Parcels.
+
+Sonic cinnamon warmly dances through any speakers that these 5 Aussie-Berliners touch, and their cozy vocals over crisp melody kept me moving along during some weird, weird times. 
+
+#### Favorite Track
+- Bemyself
+
+#### Best 3 Song Stretch
+- Redline
+- Iknowhowifeel
+- Elude
 
 ## Cage The Elephant - Cage The Elephant
 ![cage-the-elephant-self-titled](./cte.jpg)
@@ -30,7 +53,7 @@ Since my Dad drove a truck, most of my youth was spent listening to "real rock" 
  - Drones in the Valley
  - Judas
 
-
+<!-- 
 ## Kendrick Lamar - good kid, M.A.A.D CITY
 ![gkmc](./gkmc.jpeg)
 
@@ -46,7 +69,7 @@ However, the beauty of this album is how each track is enumerated in such precis
 #### Best 3 Song Stretch
 - Backseat Freestyle
 - The Art of Peer Pressure
-- Money Trees
+- Money Trees -->
 
 
 ## Kanye West - Yeezus
