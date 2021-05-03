@@ -8,18 +8,19 @@ image: "https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=
 >_that's like a dollar an hour_
 ## Inspirations
 
+About 2 and a half years ago, I got an itch to start building websites. "Not some Squarespace out-of-the-box pre-packaged bullshit" said my edgy mindset. What really turned me on were the weird words you'd hear about after someone tells you they make 6 figures to work remotely. 
 
-About 2 and a half years ago, I got an itch to start building websites. "Not some Squarespace out-of-the-box pre-packaged bullshit" was the philospophy as my reactionary mindset pulled me towards what the professionals used. The weird words you'd hear about after someone tells you they make 6 figures to work remotely and be on their computer all day. 
+>"I mainly use JavaScript."
 
->"I write JavaScript."
+>"I work with Ruby on Rails."
 
->"I work with Ruby on Rails. "
-
->"I built a PHP server."
+>"I maintain a PHP e-commerce server."
 
 >"I write scripts with Python." 
 
 >"I cAn CoDe HtML."
+
+I'm a big fan of peeking under the hood, and I spent hours searcing wikipedia for what the different programming languages did.
 
 **On January 1st, 2017**, I googled "how to code free" and scrolled through some posts on Reddit. I found [freeCodeCamp.org](https://freecodecamp.org), and the rest was history. Finally, there was a great place to learn the exciting field of Web Development for free, with actual challenges that made you truly sit down and concentrate on your code. My original idea was to build an app to help people make budgets, but after realizing how readily available the tools to succeed are, I set my heights on a loftier goal -- starting a company.  
 
